@@ -1,0 +1,19 @@
+#blueNav {
+  margin-top: 122px;
+  .navbar-wrap {
+    background: #0080cb;
+    position: fixed;
+  }
+  .nav-cta {
+    .reg-btn-blue {
+      background-image: none;
+      background: #ffffff;
+      color: #0080cb;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #blueNav {
+    margin-top: 100px;
+  }
+}

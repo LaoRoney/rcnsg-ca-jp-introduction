@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RCN Home Page Redesign</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicon -->
+  <link rel="icon" sizes="32x32" type="image/png" href="/favicon.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- LineAwesome Web Icon -->
+  <link rel="stylesheet" href="vendor/lineawesome/css/line-awesome.css">
+  <!-- FontAwesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+    integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <!-- Semantic UI -->
+  <link rel="stylesheet" href="vendor/semantic/semantic.min.css">
+  <!-- Bootstrap SelectPicker -->
+  <link rel="stylesheet" href="vendor/bs-select/bootstrap-select.min.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/query.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-wrap">
+      <div id="nav-top">
+        <div class="left">
+          <a class="active-tab" href="index.html">Job Seekers</a>
+          <a class="" href="employer.html">Employers</a>
+        </div>
+        <div class="right">
+          <div class="lang lang-pc">
+            <select class="selectpicker">
+              <option>English</option>
+              <option>Thai</option>
+              <option>Japanese</option>
+            </select>
+          </div>
+          <div class="social">
+            <a class="social-item fb-color" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="social-item in-color" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="social-item line-color" href="#"><img class="line-logo" src="images/logo/line-logo.png"
+                alt="Line Account"></a>
+          </div>
+        </div>
+      </div>
+      <div id="navbar" class="nav-transparent">
+        <div class="nav-logo">
+          <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+              alt="Reeracoen Recruitment Co.,Ltd."></a>
+        </div>
+        <div class="navbar-right">
+          <div class="nav-cta">
+            <a class="cta-btn ghost" href="#">Sign in</a>
+            <a class="cta-btn reg-btn-blue" href="#">Register!</a>
+          </div>
+          <div class="menu-open" id="menuOpen">
+            <i class="las la-bars bar-icon"></i>
+          </div>
+          <div class="navbar-menu hideMenu">
+            <div class="menu-close">
+              <i class="las la-times close-icon"></i>
+            </div>
+            <div class="menu-inner">
+              <nav id="sub-menu-parent">
+                <a class="menu-item" href="#">Job Search</a>
+                <a class="menu-item" href="/ambassador_top.html">Blog</a>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" data-target="#sub-about" role="button" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-about">Company<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-about" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Philosophy</a></li>
+                      <li><a href="#">Group CEO Message</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" role="button" data-target="#sub-services" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-services">Services<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-services" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">Career Consultation Service</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="lang lang-sp">
+                  <p>Choose Language</p>
+                  <select class="selectpicker">
+                    <option>English</option>
+                    <option>Thai</option>
+                    <option>Japanese</option>
+                  </select>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-sp hideSp">
+          <div class="nav-search-box">
+            <a class="nav-search-link" data-toggle="collapse" href="#navSearch" role="button" aria-expanded="false"
+              aria-controls="navSearch"><i class="las la-search"></i>Search Jobs</a>
+            <div class="collapse" id="navSearch">
+              <div class="search-row">
+                <form class="ui form">
+                  <div class="field">
+                    <input type="text" name="firstname" placeholder="Enter Keyword i.e. Accounting">
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Industry (Multiple)</option>
+                      <option value="software">Software/Information Processing</option>
+                      <option value="web">Web Design</option>
+                      <option value="food">Food Services</option>
+                      <option value="retail">Retail</option>
+                      <option value="hospitality">Hospitality</option>
+                      <option value="ia">Information Architecture</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Location (Multiple)</option>
+                      <option value="bkk">Bangkok</option>
+                      <option value="chn">Chonburi</option>
+                      <option value="smk">Samutprakan</option>
+                      <option value="sb">Saraburi</option>
+                      <option value="sk">Sukumvit</option>
+                    </select>
+                  </div>
+                  <button class="submit-btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-pc hidePc">
+          <div class="nav-search-box">
+            <div class="search-row">
+              <form class="ui form">
+                <div class="field">
+                  <input type="text" name="firstname" placeholder="Enter Keyword">
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Industry</option>
+                    <option value="software">Software/Information Processing</option>
+                    <option value="web">Web Design</option>
+                    <option value="food">Food Services</option>
+                    <option value="retail">Retail</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="ia">Information Architecture</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Location</option>
+                    <option value="bkk">Bangkok</option>
+                    <option value="chn">Chonburi</option>
+                    <option value="smk">Samutprakan</option>
+                    <option value="sb">Saraburi</option>
+                    <option value="sk">Sukumvit</option>
+                  </select>
+                </div>
+                <button class="submit-btn" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="hero-wrap">
+      <div class="hero-caption">
+        <p class="caption-large">Think of Job, Think of Reeracoen</p>
+        <p class="caption-small">Reeracoen Thailand</p>
+        <a class="cta-btn gradient-btn"><i class="las la-user-edit"></i>Register!</a>
+      </div>
+      <div class="desktop">
+        <img class="responsive" src="images/banner/desktop/header-th.jpg" alt="Key Banner Desktop">
+      </div>
+      <div class="mobile">
+        <img class="responsive" src="images/banner/mobile/header-th.jpg" alt="Key Banner Mobile">
+      </div>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="section" id="search">
+      <div class="content">
+        <h1>Looking for a new career opportunity?</h1>
+        <div class="search-row">
+          <form class="ui form">
+            <div class="field">
+              <input type="text" name="firstname" placeholder="Enter Keyword i.e. Accounting">
+            </div>
+            <div class="field">
+              <select name="industry" multiple="" class="ui fluid dropdown">
+                <option value="">Select Industry (Multiple)</option>
+                <option value="software">Software/Information Processing</option>
+                <option value="web">Web Design</option>
+                <option value="food">Food Services</option>
+                <option value="retail">Retail</option>
+                <option value="hospitality">Hospitality</option>
+                <option value="ia">Information Architecture</option>
+              </select>
+            </div>
+            <div class="field">
+              <select name="industry" multiple="" class="ui fluid dropdown">
+                <option value="">Select Location (Multiple)</option>
+                <option value="bkk">Bangkok</option>
+                <option value="chn">Chonburi</option>
+                <option value="smk">Samutprakan</option>
+                <option value="sb">Saraburi</option>
+                <option value="sk">Sukumvit</option>
+              </select>
+            </div>
+            <button class="submit-btn gradient-btn" type="submit"><i class="las la-search"></i><span
+                class="text">Search</span></button>
+          </form>
+        </div>
+        <div class="browse-row">
+          <p class="heading-sp">Browse Jobs by</p>
+          <div id="browseJob">
+            <div class="job-browse-group">
+              <div class="browse-wrap">
+                <div class="icon"><i class="las la-briefcase"></i></div>
+                <a class="browse-link" data-toggle="collapse" href="#browsePosition" role="button"
+                  aria-controls="browsePosition" aria-expanded="false"><span class="title-pc">Browse Job
+                    by&nbsp;</span>Position<i class="las la-angle-down"></i></a>
+              </div>
+              <div class="browse-wrap">
+                <div class="icon"><i class="las la-industry"></i></div>
+                <a class="browse-link" data-toggle="collapse" href="#browseCategory" role="button"
+                  aria-controls="browseCategory" aria-expanded="false"><span class="title-pc">Browse Job
+                    by&nbsp;</span>Category<i class="las la-angle-down"></i></a>
+              </div>
+              <div class="browse-wrap">
+                <div class="icon"><i class="las la-map-marked-alt"></i></div>
+                <a class="browse-link" data-toggle="collapse" href="#browseLocation" role="button"
+                  aria-controls="browseLocation" aria-expanded="false"><span class="title-pc">Browse Job
+                    by&nbsp;</span>Location<i class="las la-angle-down"></i></a>
+              </div>
+              <a class="advance-search" href="#" target="_blank">Advanced<span>&nbsp;Search</span></a>
+            </div>
+            <div class="job-pane-group">
+              <div id="browsePosition" class="collapse" data-parent="#browseJob">
+                <div class="job-pane-inner">
+                  <h2 class="heading">Positions</h2>
+                  <ul class="list">
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="browseCategory" class="collapse" data-parent="#browseJob">
+                <div class="job-pane-inner">
+                  <h2 class="heading">Category</h2>
+                  <ul class="list">
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="browseLocation" class="collapse" data-parent="#browseJob">
+                <div class="job-pane-inner">
+                  <h2 class="heading">Location</h2>
+                  <ul class="list">
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Engineering</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Information and Technology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Biotechnology</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Medical / Welfare</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Logistic</h2>
+                      </a></li>
+                    <li><a class="job-item" href="#" target="_blank">
+                        <h2>Finance</h2>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="jobs">
+      <div class="content">
+        <h2 class="main-title">latest jobs</h2>
+        <div class="hot-job">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="job-box">
+                <div class="info">
+                  <p class="position">Quality Control
+                    (Assistant Manager or Managing Director)</p>
+                  <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                  <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                </div>
+                <a class="detail-btn" href="#">More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-job">
+          <ul class="list">
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#" target="_blank">
+                <div class="job-box">
+                  <div class="info">
+                    <p class="position">Quality Control
+                      (Assistant Manager or Managing Director) Japanese Speaking</p>
+                    <span class="salary"><i class="las la-money-bill"></i>20,000 THB ~ 35,000 THB</span>
+                    <span class="location"><i class="las la-map-marker"></i>Amatanakhon</span>
+                  </div>
+                </div>
+              </a>
+              <div class="job-arrow">
+                <i class="las la-angle-right"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a class="more-btn gradient-btn" href="#">See More Jobs</a>
+      </div>
+    </div>
+    <div class="section" id="advertisement">
+      <div class="content">
+        <div id="ad-slider">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="ad-box">
+                  <div class="mobile">
+                    <img class="responsive" src="images/demo/ad-sp-01.jpg" alt="Ad for Mobile">
+                  </div>
+                  <div class="desktop">
+                    <img class="responsive" src="images/demo/ad-pc-01.jpg" alt="Ad for Desktop">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="ad-box">
+                  <div class="mobile">
+                    <img class="responsive" src="images/demo/ad-sp-02.jpg" alt="Ad for Mobile">
+                  </div>
+                  <div class="desktop">
+                    <img class="responsive" src="images/demo/ad-pc-02.jpg" alt="Ad for Desktop">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="ad-box">
+                  <div class="mobile">
+                    <img class="responsive" src="images/demo/ad-sp-03.jpg" alt="Ad for Mobile">
+                  </div>
+                  <div class="desktop">
+                    <img class="responsive" src="images/demo/ad-pc-03.jpg" alt="Ad for Desktop">
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="blog">
+      <div class="content">
+        <h2 class="main-title">careers tips/news</h2>
+        <div id="blog-slider">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#" target="_blank">
+                <div class="blog-box">
+                  <div class="img">
+                    <img class="fit-image" src="images/demo/blog.jpg" alt="Blog Image">
+                    <div class="category">
+                      <p>general topic</p>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <h2 class="blog-title">เผย 5 สิ่งสำคัญ มูลเหตุแห่งความก้าวหน้าในหน้าที่การงาน</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a class="more-btn ghost" href="#">See More Articles</a>
+      </div>
+    </div>
+    <div class="section" id="achievement">
+      <div class="content">
+        <h2 class="main-title">OUR ACHIEVEMENTS</h2>
+        <div id="stats">
+          <ul class="list">
+            <li class="item">
+              <div class="icon"><img class="responsive" src="images/icon/candidate.png" alt="Candidate Pool"></div>
+              <h2 class="counter">224,681</h2>
+              <h2 class="counter-title">Candidates Pool</h2>
+            </li>
+            <li class="item">
+              <div class="icon"><img class="responsive" src="images/icon/job-open.png" alt="Opening Jobs"></div>
+              <h2 class="counter">6,274</h2>
+              <h2 class="counter-title">Opening Jobs</h2>
+            </li>
+            <li class="item">
+              <div class="icon"><img class="responsive" src="images/icon/partners.png" alt="Corporate Partners"></div>
+              <h2 class="counter">4,368</h2>
+              <h2 class="counter-title">Corporate Partners</h2>
+            </li>
+            <li class="item">
+              <div class="icon"><img class="responsive" src="images/icon/placements.png" alt="Successful Placements">
+              </div>
+              <h2 class="counter">1,513</h2>
+              <h2 class="counter-title">Successful Placements</h2>
+            </li>
+          </ul>
+        </div>
+        <p class="note">* Annual Statistical Report in 2019</p>
+      </div>
+    </div>
+    <div class="section" id="client">
+      <div class="content">
+        <h2 class="main-title">OUR CLIENTS</h2>
+        <div id="client-logo">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/isi_dentsu.png"
+                  alt="Dentsu International Information Service">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/macnica.png" alt="Macnica">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/obayashi.png" alt="Obayashi">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/sansan.png" alt="Sansan">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/sushiro.png" alt="Akindo Sushiro">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/stanley.png" alt="Stanley">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/sumitomo.png" alt="Sumitomo">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/social_gear.png" alt="Social Gear">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/gooute.png" alt="Gooute">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/ags.png" alt="AGS">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/kawajun.png" alt="Kawajun Tokyo Japan">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/four_nines.png" alt="Four Nines">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/zoff.png" alt="Aoff Corporation">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/ishida_taiseisha.png" alt="Ishida Taiseisha">
+              </div>
+            </div>
+            <div class="item">
+              <div class="logo-container">
+                <img class="responsive" src="images/client-logo/ryoden.png" alt="Ryoden Trading">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <a class="more-btn gradient-btn" href="#">More of Our Clients</a>
+    </div>
+    <div class="section" id="faq">
+      <div class="content">
+        <div class="faq-container">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active rcn-link" id="pills-rcn-tab" data-toggle="pill" href="#rcn-tab" role="tab"
+                aria-controls="rcn-tab" aria-selected="true">
+                <h2>Why Reeracoen</h2>
+              </a>
+            </li>
+            <li class="bullet"></li>
+            <li class="nav-item">
+              <a class="nav-link faq-link" id="pills-faq-tab" data-toggle="pill" href="#faq-tab" role="tab"
+                aria-controls="faq-tab" aria-selected="false">
+                <h2>FAQ</h2>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="rcn-tab" role="tabpanel" aria-labelledby="pills-rcn-tab">
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-1" role="button" aria-controls="info-1"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    มีตำแหน่งงานจากอุตสาหกรรมหลากหลาย ที่เปิดรับสมัครงาน
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-1" class="collapse" data-parent="#rcn-tab">
+                  <div class="tab-info">
+                    <p>
+                      Reeracoen รวบรวมงานจากบริษัทชั้นนำกว่า 33 กลุ่มธุรกิจ ไม่ว่าจะเป็นกลุ่มอุตสาหกรรมการผลิต บริษัท
+                      Trading กลุ่มธุรกิจ Logistic บริษัท IT & Telecommunication ธุรกิจด้าน Real Estate
+                      รวมไว้ที่นี่ทีเดียว รวมถึง Reeracoen มีงานที่หลากหลายให้คุณเลือก ไม่ว่าจะหางานขาย งานด้านไอที งาน
+                      Back Office งาน Engineer หรือแม้แต่งานบัญชี ทำให้การหางานของคุณเป็นเรื่องง่าย
+                      สะดวกและช่วยลดเวลาในการยื่นสมัครงานในแต่ละที่ ด้วยการฝากเรซุเม่ไว้กับเราเพียงครั้งเดียว
+                      รับรองว่าสะดวกกว่าการใช้บริการในเว็บสมัครงานอื่นๆ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-2" role="button" aria-controls="info-1"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    ไม่เสียค่าใช้จ่ายในการดำเนินการหางาน
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-2" class="collapse" data-parent="#rcn-tab">
+                  <div class="tab-info">
+                    <p>
+                      อย่ากังวลเรื่องค่าใช้จ่าย เพราะการสมัครงานกับ บริษัทจัดหางาน Reeracoen จนกระทั่งถึงคุณได้งาน
+                      จะไม่มีค่าใช้จ่ายใดๆเกิดขึ้น เพราะฉะนั้นสบายใจและเริ่มฝากเรซูเม่กับเราได้เลย
+                    </p>
+                    <a class="tab-read-more" href="#">อ่านเพิ่มเติม<i class="las la-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-3" role="button" aria-controls="info-1"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    ประหยัดค่าใช้จ่าย เวลา ในช่วงเดินสายสัมภาษณ์
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-3" class="collapse" data-parent="#rcn-tab">
+                  <div class="tab-info">
+                    <p>
+                      บริษัทจัดหางาน Reeracoen รวบรวมงานทั่วทั้งประเทศไว้ให้คุณแล้ว ไม่ว่าคุณจะหางาน กทม.
+                      หรือหางานชลบุรี ระยอง หรือที่ไหนก็ตามในประเทศไทย Consultant ที่คอยดูแลในการหางานให้กับคุณ
+                      จะคอยแจ้งเตือนเวลามีงานใหม่ๆที่ตรงกับประสบการณ์ทำงานและความคาดหวังในการหางานของคุณ
+                      ถ้ากลัวว่าจะไม่มีเวลามาสัมภาษณ์กับเรา สามารถขอ request เป็นการ Phone Interview ซึ่งใช้เวลาประมาณ
+                      15 นาทีในการพูดคุย ทำให้คุณสามารถประหยัดเวลาและค่าใช้จ่ายในการเดินทางมาสัมภาษณ์ได้อีก
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-4" role="button" aria-controls="info-1"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    แจ้งข้อมูลความคืบหน้าของผู้สมัครงานอยู่เสมอ
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-4" class="collapse" data-parent="#rcn-tab">
+                  <div class="tab-info">
+                    <p>
+                       หมดปัญหาความคลุมเครือว่าคุณผ่านหรือไม่ผ่านการสัมภาษณ์ เพราะ Consultant ของ Reeracoen จะคอยอัพเดต
+                      Status การสมัครงานของคุณ ไม่ว่าจะยื่นเรซูเม่กี่บริษัท หรือแม้แต่ผลการสัมภาษณ์ในแต่ละครั้งก็ตาม
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-5" role="button" aria-controls="info-1"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    มีผู้เชี่ยวชาญคอยให้คำปรึกษา พร้อมทั้งดูแลผู้สมัครงานตลอดจนกว่าจะได้งาน
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-5" class="collapse" data-parent="#rcn-tab">
+                  <div class="tab-info">
+                    <p>
+                      Consultant จะคอยเช็ค qualification ต่างๆที่จำเป็นในการยื่นเรซูเม่สมัครแต่ละครั้ง
+                      อธิบายข้อมูลบริษัทและตำแหน่งเพื่อที่เราจะได้มีข้อมูลที่เพียงพอประกอบการตัดสินใจสมัครในแต่ละที่
+                      และคอยแนะนำการเตรียมตัวก่อนสัมภาษณ์เพื่อเพิ่มโอกาสในการได้งาน
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="faq-tab" role="tabpanel" aria-labelledby="pills-faq-tab">
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-6" role="button" aria-controls="info-6"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    การสมัครงานผ่าน Reeracoen ต้องเสียค่าใช้จ่ายหรือไม่?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-6" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      การสมัครงานผ่าน Reeracoen นั้น เราไม่ต้องเสียค่าใช้จ่ายในทุกขั้นตอนจนได้งานที่เราชอบเลยครับ
+                      โดยที่ตลอดเวลาที่เราหางาน นั้น จะมีที่ปรึกษาคอยช่วยดูแลจนกว่าเราจะได้งานเลยทีเดียว
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-7" role="button" aria-controls="info-7"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    สมัครงานผ่าน Reeracoen ยุ่งยากหรือไม่?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-7" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      จริงๆ การสมัครงานผ่าน Reeracoen นั้นง่ายมากครับ เพียงแค่เราเตรียม Resume
+                      ของเราเองที่พร้อมในการสมัครงาน จากนั้นใช้เวลาแค่เพียง 1
+                      นาทีในการกรอกข้อมูลของคุณเพื่อความสะดวกในการติดต่อกลับ
+                      จากนั้นจะมีพนักงานติดต่อคุณเพื่อแนะนำต่อครับ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-8" role="button" aria-controls="info-8"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    ทำไมเราถึงต้องสัมภาษณ์เบื้องต้นกับ Reeracoen ก่อนด้วย สู้ไปสมัครที่บริษัทนั้นๆโดยตรงไม่ดีกว่าหรือ?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-8" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      จริงๆแล้ว การสัมภาษณ์งานกับ Reeracoen Consultant ของเราจะเน้นการสอบถามประสบการณ์ทำงาน
+                      และความคาดหวังในการหางานของเราเป็นหลัก ว่าเราสนใจทำงานในสายงานและธุรกิจประเภทไหน
+                      รวมถึงเรื่องเงินเดือน โลเคชั่นในการทำงาน ลักษณะงานที่สนใจ รวมถึงหลังจากนั้น Consultant
+                      จะคอยแนะนำงานที่ตรงกับความต้องการของคุณ นอกเหนือจากงานที่เราสมัครเข้ามาแล้ว
+                      อาจจะมีโอกาสจากงานอื่นๆที่น่าสนใจแนะนำเพิ่มเติมด้วยเช่นกันครับ สะดวกใช่มั๊ยหล่ะครับ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-9" role="button" aria-controls="info-9"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    หางานผ่านบริษัทจัดหางาน Reeracoen ดีกว่าสมัครงานเองอย่างไร?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-9" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      สะดวกและรวดเร็วกว่าแน่นอนครับ เพราะเรารวบรวมงานจากทุกธุรกิจและสายอาชีพไว้พร้อมในที่เดียวแล้ว
+                      นอกเหนือจากเราสามารถระบุงานที่เราอยากทำได้อย่างละเอียด Consultant
+                      ของเราจะคอยอัพเดตงานใหม่ๆที่ตรงกับประสบการณ์และตรงกับความต้องการในการหางาน
+                      รวมถึงช่วยคุณเตรียมตัวในการสมัครงาน เอกสารต่างๆที่จำเป็น
+                      รวมถึงให้การช่วยเหลือและไกด์ไลน์ที่จำเป็นในการสัมภาษณ์งานอีกด้วย
+                      เพื่อให้มั่นใจว่าคุณพร้อมในการไปสัมภาษณ์งานแต่ละครั้ง
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-10" role="button" aria-controls="info-10"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    ถ้าเราสมัครงานผ่าน Reeracoen สามารถคาดหวังงานประเภทไหนได้บ้าง?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-10" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      บริษัทจัดหางาน Reeracoen มีบริษัทที่เป็นพาร์ทเนอร์กว่า 3000 บริษัท จากกว่า 30 กลุ่มธุรกิจ
+                      และทุกๆปีเรามีงานรองรับคนหางานกว่า 4000 - 5000 ตำแหน่ง
+                      โดยจะเน้นในกลุ่มออฟฟิศและโรงงานอุตสาหกรรมที่อยู่ภาคกลาง เพราะฉะนั้นไม่ว่าเราจะหางาน กทม งานชลบุรี
+                      หรืองานในโซนอื่นๆ คุณจะมีโอกาสได้งานเร็วขึ้นแน่นอน บริษัทพาร์ทเนอร์ที่มีสัดส่วนมากที่สุด 5 อันดับ
+                      จะมาจากกลุ่มธุรกิจประเภท Manufacturing, บริษัท Trading, บริษัทกลุ่มธุรกิจ IT & Telecommunication,
+                      กลุ่มบริษัทด้าน Logistic และบริษัท Consulting ส่วนกลุ่มงานที่มีเปิดมากที่สุดในแต่ละปี
+                      จะเป็นประเภทงาน Engineer, งาน Back Office, งาน Sales, งาน IT&Telecommunication และ งาน Accounting
+                      แต่นอกเหนือจากทั้งกลุ่มธุรกิจและสายงานที่กล่าวมานั้น
+                      เรายังมีงานอื่นๆที่น่าสนใจเพื่อตอบโจทย์ให้กับผู้สมัครในทุกสายอาชีพเลยทีเดียวครับ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item">
+                <a class="tab-link" data-toggle="collapse" href="#info-11" role="button" aria-controls="info-11"
+                  aria-expanded="false">
+                  <span class="tab-heading">
+                    ถ้าได้งานผ่าน Reeracoen เราจะเป็นพนักงานของบริษัทนั้นๆเลยไหม?
+                  </span>
+                  <i class="las la-plus"></i>
+                </a>
+                <div id="info-11" class="collapse" data-parent="#faq-tab">
+                  <div class="tab-info">
+                    <p>
+                      ถูกต้องแล้วครับ เราจะเป็นพนักงานประจำในบริษัทที่เราสมัครงานและไปสัมภาษณ์งานผ่าน Reeracoen
+                      โดยตรงเลย โดยในช่วงที่มีการออฟเฟอร์งาน จะมีเอกสารระบุการเสนองาน ตำแหน่ง เงินเดือน สวัสดิการ
+                      วันเริ่มงาน รวมถึงชื่อบริษัทที่เราจะเข้าไปเป็นพนักงานอย่างชัดเจน
+                      และจะต้องมีการเซ็นต์รับทราบทั้งทางบริษัทที่เราสมัครและตัวเรา
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="contact-us">
+      <div class="contact-box">
+        <div class="left">
+          <img class="fit-image" src="images/contact-us.jpg" alt="Contact Us">
+        </div>
+        <div class="right">
+          <div class="info">
+            <h2>Need any assistance?</h2>
+            <p>Our friendly staff are happy to help you.</p>
+            <a class="cta-btn ghost"><i class="las la-envelope-open-text"></i>Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---end/wrap-->
+  </div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="box box-1">
+        <div class="section">
+          <div class="nav-logo">
+            <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+                alt="Reeracoen Recruitment Co.,Ltd."></a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Bangkok Branch</h3>
+          <p class="info">801 8th Floor, Mercury Tower, 540 Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6602-253-9800">(+66)02-253-9800</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Chonburi Branch</h3>
+          <p class="info">4/222 Harbormall Bldg. Unit 10C04-05, 10th Floor, Moo 10, Sukhumvit Road Thungsukhla,
+            Sriracha, Chonburi 20230 Thailand</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6603-811-1256">(+66)03-811-1256</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Follow Us</h3>
+          <div class="social">
+            <a class="" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="" href="#"><img class="line-logo" src="images/logo/line-logo.png" alt="Line Account"></a>
+            <a class="" href="#"><i class="las la-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="box box-2">
+        <div class="section">
+          <h3>Group Companies</h3>
+          <ul class="comp-list">
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Thailand</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Indonesia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Singapore</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Philippines</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Agensi Pekerjaan Reeracoen Malaysia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Taiwan</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Hong Kong</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen India</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Shenzhen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box box-3">
+        <ul class="link-list">
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>About Us</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Privacy Policy</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Terms of Use</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Site Map</h3>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2020 Reeracoen. All rights reserved.</p>
+  </footer>
+  <!-- Back to Top Button -->
+  <!-- <a id="top-button"><span class="material-icons-outlined icon">
+      arrow_upward</span></a> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="vendor/counter/jquery.countup.js"></script>
+  <script src="vendor/counter/waypoints.min.js"></script>
+  <script src="vendor/bs-select/bootstrap-select.min.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="vendor/sumoselect/jquery.sumoselect.min.js"></script>
+  <script src="vendor/semantic/semantic.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    $('.lang select').selectpicker();
+  </script>
+  <script>
+    $('.ui.dropdown').dropdown({
+      useLabels: true,
+      maxSelections: 5,
+      message: {
+        count: '{count} selected',
+        maxSelections: '5 Selections Max.',
+      }
+
+    });
+  </script>
+  <script>
+    $('.nav-search-pc .ui.dropdown').dropdown({
+      useLabels: false,
+      maxSelections: false,
+    });
+  </script>
+  <script>
+    $('.counter').countUp({
+      'time': 1000,
+      'delay': 10
+    });
+  </script>
+</body>
+
+</html>

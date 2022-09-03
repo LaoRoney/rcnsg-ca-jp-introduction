@@ -1,0 +1,111 @@
+/* Update 2021 Style */
+/* Only #content of the page */
+#hero-wrap .hero-caption .title {
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#content {
+  flex: 1 1 auto;
+}
+#content .wrapper {
+  margin: auto;
+  max-width: 1600px;
+  width: 66.666667%;
+}
+#content .wrapper .inner {
+  padding: 4rem 0;
+}
+#content .wrapper .inner .title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#content .wrapper .inner .title h2 {
+  color: #0080cb;
+  font-family: "M Plus 1p Bold", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#content .wrapper .inner .article p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+#content .btn {
+  border: 0 none;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+#content .btn.gradient a {
+  background-color: #0080cb;
+  background-image: linear-gradient(45deg, #0080cb 0%, #139eff 100%);
+  border: 0 none;
+  border-radius: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 3rem;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+#content .btn.gradient a::before {
+  position: absolute;
+  content: "";
+  color: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, #139eff 0%, #0080cb 100%);
+  z-index: -1;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  border-radius: 999px;
+  border: none;
+}
+#content .btn.gradient a:hover, #content .btn.gradient a:focus {
+  opacity: 1;
+  color: #fff;
+}
+#content .btn.gradient a:hover::before, #content .btn.gradient a:focus::before {
+  opacity: 1;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  #content .wrapper {
+    width: auto;
+  }
+  #content .wrapper .inner {
+    padding: 2rem 1.5rem;
+  }
+  #content .wrapper .inner .title h2 {
+    color: #0080cb;
+    font-family: "M Plus 1p Bold", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  #content .wrapper .inner .article p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+}

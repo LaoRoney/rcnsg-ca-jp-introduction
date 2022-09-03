@@ -1,0 +1,841 @@
+//Google Font - Open sans
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+#blueNav {
+  .navbar-wrap {
+    background: #145374;
+    position: fixed;
+  }
+  .nav-cta {
+    .reg-btn-blue {
+      background-image: none;
+      background: #ffffff;
+      color: #145374;
+    }
+  }
+}
+footer {
+  background: #00334e;
+}
+// Button Style
+.button {
+  a {
+    display: inline-flex;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    background: #5588a3;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius: 100rem;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    &:hover,
+    &:focus {
+      opacity: 1;
+      background: #145374;
+    }
+  }
+}
+header {
+  .banner {
+    display: flex;
+    align-items: center;
+    background: #e8e8e8;
+    height: 100vh;
+    .left {
+      width: 50%;
+      .caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        color: #00334e;
+        & > * {
+          margin: 0;
+          margin-bottom: 0.5rem;
+        }
+        h1 {
+          font-size: 50px;
+          font-weight: 700;
+        }
+        h2 {
+          font-size: 2em;
+          font-weight: 500;
+        }
+        .button {
+          padding: 1rem 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      height: 100%;
+      background-image: url(../images/rcnth-hiring/rcnhiring.jpg);
+      background-size: cover;
+    }
+    .typing-demo {
+      width: 18ch;
+      animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      -webkit-animation: typing 2s steps(20),
+        blink 0.5s step-end infinite alternate;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    .fade-in {
+      //animation: fadeIn ease 5s;
+      animation: fadeIn ease 4s;
+      -webkit-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0.2;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+  .banner-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    background: url(../images/rcnth-hiring/groupbg.png) #dbf3ff no-repeat center;
+    background-size: contain;
+    &::before {
+      background: #02273a;
+      opacity: 0.5;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+    }
+
+    h1 {
+      position: relative;
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
+
+#rcnthHiring {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px;
+
+  .life {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/rcnth-hiring/lifeatrcn.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vw;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0, 0.1) 100%
+      );
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+    }
+    .content-box {
+      width: 60%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      .heading {
+        h2 {
+          color: #fff;
+          font-size: 2em;
+        }
+      }
+      .info {
+        padding: 2rem 0;
+        p {
+          font-family: "Open Sans", sans-serif !important;
+          font-size: 1.25em;
+          font-weight: 300;
+          line-height: 1.5;
+        }
+      }
+      .button {
+        a {
+          background: #fff;
+          color: #00334e;
+          &:hover,
+          &:focus {
+            opacity: 1;
+            background: #5588a3;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .ourteam {
+    background: #e8e8e8;
+    .content-box {
+      .heading {
+        h2 {
+          color: #00334e;
+          font-size: 2em;
+        }
+      }
+      .info {
+        display: flex;
+        align-items: center;
+        .num-group {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          .num {
+            padding-right: 30px;
+            font-size: 60px;
+            font-weight: 700;
+            color: #145374;
+          }
+          .text {
+            font-size: 1em;
+            font-weight: 300;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  .corporate {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/rcnth-hiring/corporate.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vw;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0, 1) 100%
+      );
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+    }
+    .content-box {
+      width: 60%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      float: right;
+      .heading {
+        h2 {
+          color: #fff;
+          font-size: 2em;
+        }
+      }
+      .info {
+        padding: 2rem 0;
+        p {
+          font-family: "Open Sans", sans-serif !important;
+          font-size: 1.25em;
+          font-weight: 300;
+          line-height: 1.5;
+        }
+      }
+      .button {
+        a {
+          background: #fff;
+          color: #00334e;
+          &:hover,
+          &:focus {
+            opacity: 1;
+            background: #5588a3;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .rcnchannel {
+    display: flex;
+    align-items: center;
+    height: 40vw;
+    background: #e8e8e8;
+    .box {
+      display: flex;
+      align-items: center;
+      .left {
+        width: 50%;
+        .content-box {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          .heading {
+            h2 {
+              color: #00334e;
+              font-size: 2em;
+            }
+          }
+          .info {
+            padding: 2rem 0;
+            padding-right: 1.5rem;
+            p {
+              font-family: "Open Sans", sans-serif !important;
+              font-size: 1.25em;
+              font-weight: 300;
+              line-height: 1.5;
+              color: #000;
+            }
+          }
+          .button {
+            a {
+              background: #5588a3;
+              color: #fff;
+              &:hover,
+              &:focus {
+                opacity: 1;
+                background: #00334e;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        .youtube {
+          .youtube-container {
+            width: 100%;
+            .youtube-wrapper {
+              position: relative;
+              padding-bottom: 56.25%; /* 16:9 */
+              height: 0;
+              iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .career {
+    .heading {
+      h2 {
+        color: #00334e;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+    .job-container {
+      padding: 0;
+      .job-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        position: relative;
+        border-bottom: 1px solid #dedede;
+        &:last-child {
+          border-bottom: 0;
+        }
+        .position {
+          width: 70%;
+          font-size: 1.2em;
+          font-weight: 700;
+          color: #00334e;
+        }
+        .excerp {
+          font-size: 1em;
+          font-weight: 300;
+          color: #000;
+          padding: 1.5rem 0;
+        }
+        .button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          a {
+            padding: 5px 20px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .button {
+      text-align: center;
+    }
+  }
+  .job-details {
+    .details {
+      h2.position {
+        font-size: 1.35em;
+        font-weight: 700;
+        color: #00334e;
+      }
+      .location {
+        display: flex;
+        align-items: center;
+        i {
+          font-size: 24px;
+          color: #145374;
+          margin-right: 1rem;
+        }
+        .text {
+          font-size: 1em;
+          font-weight: 300;
+          color: #000;
+        }
+      }
+      h3.heading {
+        font-size: 1em;
+        font-weight: 700;
+        color: #00334e;
+      }
+      .description {
+        font-weight: 300;
+        font-size: 1em;
+        color: #000;
+        margin-bottom: 1rem;
+        p {
+          margin-bottom: 0.5rem;
+        }
+        .list {
+          list-style: disc inside;
+
+          li {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    .button {
+      text-align: center;
+      padding-top: 2rem;
+    }
+  }
+  .application {
+    .title {
+      .inner {
+        padding-bottom: 2rem;
+      }
+      h1 {
+        font-weight: 500;
+        font-size: 2em;
+        color: #00334e;
+      }
+    }
+
+    .apply-form {
+      margin: auto;
+      background: #f4f4f4;
+      .ui.form {
+        width: 600px;
+        margin: auto;
+        h2 {
+          font-weight: 500;
+          font-size: 1.2em;
+          color: #5588a3;
+          margin-bottom: 2rem;
+        }
+        .field {
+          margin-bottom: 1.5rem;
+          label {
+            font-size: 16px;
+            font-weight: 700;
+            color: #145374;
+            margin-bottom: 10px;
+          }
+          input {
+            border: 1px solid #145374 !important;
+          }
+        }
+        .required.field > label:after {
+          margin: 2px 0 0 8px;
+          content: "*";
+          color: #e74c3c;
+        }
+        .upload-btn {
+          position: relative;
+          .label {
+            position: relative;
+            z-index: 0;
+            display: inline-flex;
+            background: #fff;
+            cursor: pointer;
+            color: #145374;
+            padding: 1rem 2rem;
+            font-size: 1em;
+            font-weight: 500;
+            border-radius: 100rem;
+            -webkit-border-radius: 100rem;
+            -moz-border-radius: 100rem;
+            -ms-border-radius: 100rem;
+            -o-border-radius: 100rem;
+            border: 1px solid #145374;
+          }
+          input {
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor: pointer;
+          }
+          .note {
+            font-size: 12px;
+            color: #939393;
+            margin-top: 8px;
+          }
+        }
+        .button {
+          text-align: center;
+          padding: 1rem 0;
+        }
+      }
+    }
+    .contact {
+      text-align: center;
+      p {
+        font-size: 1.2em;
+        color: #02273a;
+        font-weight: 300;
+      }
+      .link {
+        color: #145374;
+        text-decoration: underline;
+      }
+    }
+  }
+  .completed {
+    .title {
+      text-align: center;
+      h3 {
+        font-size: 2em;
+        color: #00334e;
+      }
+    }
+    .contact {
+      text-align: center;
+      width: 80%;
+      margin: auto;
+      padding-bottom: 10rem;
+      p.hilight {
+        font-size: 1.2em;
+      }
+      p {
+        font-size: 1em;
+        color: #02273a;
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+      .link {
+        color: #145374;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.pagination {
+  justify-content: center;
+  .page-item {
+    .page-link {
+      font-family: "Open Sans", sans-serif;
+      border: 0;
+      background-color: none;
+      color: #145374;
+      font-weight: 500 !important;
+      font-size: 16px;
+      padding: 5px 10px;
+      margin: 0 5px;
+      border-radius: 100rem;
+      -webkit-border-radius: 100rem;
+      -moz-border-radius: 100rem;
+      -ms-border-radius: 100rem;
+      -o-border-radius: 100rem;
+    }
+    &.active .page-link {
+      background-color: #5588a3;
+      color: #fff;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #blueNav {
+    margin-top: 115px;
+  }
+  .button {
+    a {
+      padding: 1rem 1.5rem;
+      font-size: 15px;
+    }
+  }
+  header {
+    .banner {
+      flex-direction: column;
+      height: auto;
+      .left {
+        width: 100%;
+        order: 2;
+        .caption {
+          padding: 1.5rem 20px;
+
+          h1 {
+            font-size: 35px;
+          }
+          h2 {
+            font-size: 1.5em;
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        height: 250px;
+      }
+    }
+    .banner-2 {
+      height: 200px;
+      background: url(../images/rcnth-hiring/groupbg.png) #dbf3ff no-repeat center;
+      background-size: cover;
+      padding: 1rem 20px;
+
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+
+  #rcnthHiring {
+    .life {
+      display: flex;
+      align-items: center;
+      background-image: url(../images/rcnth-hiring/lifeatrcn.jpg);
+      background-size: cover;
+      background-position: top center;
+      background-attachment: unset;
+      height: auto;
+      padding: 4rem 0;
+      &::before {
+        background: black;
+        opacity: 0.7;
+      }
+      .content-box {
+        width: 100%;
+        text-align: center;
+        .heading {
+          h2 {
+            font-size: 1.5em;
+            color: #fff;
+          }
+        }
+        .info {
+          padding: 2rem 0;
+          p {
+            font-family: "Open Sans", sans-serif !important;
+            font-size: 1.2em;
+          }
+        }
+      }
+    }
+    .ourteam {
+      .content-box {
+        .heading {
+          text-align: center;
+          h2 {
+            font-size: 1.5em;
+          }
+        }
+        .info {
+          flex-direction: column;
+          align-items: center;
+          padding: 1rem 0;
+          .num-group {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .num {
+              width: 100%;
+              padding-right: 0;
+              padding-bottom: 5px;
+              font-size: 60px;
+              line-height: 1;
+            }
+            .text {
+              width: 100%;
+            }
+            &:first-child {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+    .corporate {
+      display: flex;
+      align-items: center;
+      background-image: url(../images/rcnth-hiring/corporate.jpg);
+      background-size: cover;
+      background-position: left center;
+      background-attachment: unset;
+      height: auto;
+      padding: 4rem 0;
+      &::before {
+        background: black;
+        opacity: 0.7;
+      }
+      .content-box {
+        width: 100%;
+        text-align: center;
+        .heading {
+          h2 {
+            font-size: 1.5em;
+            color: #fff;
+          }
+        }
+        .info {
+          padding: 2rem 0;
+          p {
+            font-family: "Open Sans", sans-serif !important;
+            font-size: 1.2em;
+          }
+        }
+      }
+    }
+
+    .rcnchannel {
+      height: auto;
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .left {
+          width: 100%;
+          .content-box {
+            text-align: center;
+            .heading {
+              h2 {
+                font-size: 1.5em;
+              }
+            }
+            .info {
+              padding: 1rem 0;
+              padding-right: 1.5rem;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          padding: 2rem 0;
+        }
+      }
+    }
+    .career {
+      .heading {
+        h2 {
+          font-size: 1.5em;
+          text-align: center;
+        }
+      }
+      .job-container {
+        padding: 1rem 0 !important;
+        .job-box {
+          margin-bottom: 1.5rem;
+          padding-bottom: 1.5rem;
+          &:last-child {
+            border-bottom: 0;
+          }
+          .position {
+            width: 100%;
+            font-size: 1.2em;
+          }
+          .excerp {
+            font-size: 1em;
+            padding: 1rem 0;
+          }
+          .button {
+            position: relative;
+            text-align: left;
+            a {
+              padding: 5px 20px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .button {
+        text-align: center;
+      }
+    }
+    .application {
+      .apply-form {
+        .ui.form {
+          width: 100%;
+        }
+        .contact {
+          p {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+    .completed {
+      .contact {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
