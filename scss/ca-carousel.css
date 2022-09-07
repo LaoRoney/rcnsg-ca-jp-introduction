@@ -37,12 +37,12 @@
   object-fit: cover;
 }
 #ca-carousel #ca-slider .item .ca-box .name {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
   color: white;
 }
 #ca-carousel #ca-slider .item .ca-box .position {
-  font-size: 1em;
+  font-size: 0.85em;
   color: white;
 }
 #ca-carousel #ca-slider .item .slide1 {
